@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonograms\\RandomNonogram\\Metier\\Logic.csproj",
+      "projectUniqueName": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonogram\\RandomNonogram\\Metier\\Logic.csproj",
       "projectName": "Logic",
-      "projectPath": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonograms\\RandomNonogram\\Metier\\Logic.csproj",
+      "projectPath": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonogram\\RandomNonogram\\Metier\\Logic.csproj",
       "packagesPath": "C:\\Users\\samlach22\\.nuget\\packages\\",
-      "outputPath": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonograms\\RandomNonogram\\Metier\\obj\\",
+      "outputPath": "D:\\WINDOWS\\Documents\\GitHub\\RandomNonogram\\RandomNonogram\\Metier\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\LOGICIELS\\VisualStudio\\ComposantsPartagesSDK\\NuGetPackages",
