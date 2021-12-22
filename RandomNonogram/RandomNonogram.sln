@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMI", "RandomPicross\HMI.csproj", "{B348D9BB-3051-428F-AC54-6D006E9E1E78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Metier\Logic.csproj", "{5CC998A6-4F99-4270-86F2-55DD842E7CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B348D9BB-3051-428F-AC54-6D006E9E1E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B348D9BB-3051-428F-AC54-6D006E9E1E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B348D9BB-3051-428F-AC54-6D006E9E1E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B348D9BB-3051-428F-AC54-6D006E9E1E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC998A6-4F99-4270-86F2-55DD842E7CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC998A6-4F99-4270-86F2-55DD842E7CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC998A6-4F99-4270-86F2-55DD842E7CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC998A6-4F99-4270-86F2-55DD842E7CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64814962-1A5B-4498-AA36-E51D174E2163}
+	EndGlobalSection
+EndGlobal

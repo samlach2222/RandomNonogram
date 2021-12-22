@@ -1,0 +1,44 @@
+﻿<Window x:Class="Logic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Logic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600" Background="#181a1b">
+    <Grid x:Name="grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+
+        <Rectangle x:Name="labelNonogram" Stroke="#000000" Fill="#FFC9C7C7" StrokeThickness="1" Grid.Column="0" Grid.Row="0" Margin="2,2,2,2"></Rectangle>
+        <Label Content="Nonogram" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="38" Foreground="#FF6E1BB9" Grid.Column="0" Grid.Row="0"/>
+        <Label x:Name="timer" Content="00:00:00" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" Foreground="#000000" Grid.Column="0" Grid.Row="0"/>
+        <Label x:Name="errors" Content="Errors : 0" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="38" Foreground="#FFCD1717" Grid.Column="0" Grid.Row="0"/>
+    </Grid>
+</Window>
